@@ -1,41 +1,41 @@
 class Aerless < Formula
   desc "Aerless, picture tool and coding assistant for the terminal"
-  homepage "https://aerless.io"
-  version "0.2.5"
+  homepage "https://aerless.ai"
+  version "0.2.7"
 
   on_macos do
     on_arm do
-      url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.5/aerless-darwin-arm64"
-      sha256 "5ca1ddcb43b8d6984874ecd0320faf984105f22980696bdf3bec4e9365e0b912"
+      url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.7/aerless-darwin-arm64"
+      sha256 "023088e51f16d239a5491a118673c97f1fc79318c15596d29cecaeef0317b197"
       resource "aerless-code" do
-        url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.5/aerless-code-darwin-arm64"
-        sha256 "1e416823ff1c51c60a7e3a6cbce545b81426574d064605d11f01dd96e600d2f9"
+        url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.7/aerless-code-darwin-arm64"
+        sha256 "ac68168d6ad549c721d1bce3ea3b64da099e06695ea82c0775b243b292f350bd"
       end
     end
     on_intel do
-      url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.5/aerless-darwin-x64"
-      sha256 "faad7a0c0df28a49ae59ee13311aeae1292a30039c447cdd68e412b394e4e46b"
+      url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.7/aerless-darwin-x64"
+      sha256 "b1c0c03c121e7524022a433525db6bfb5e1c5046d92890070a729ec7e81223f7"
       resource "aerless-code" do
-        url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.5/aerless-code-darwin-x64"
-        sha256 "b35f2dbcc0a0cf5b40b0d6f57446ce111f455c3adc6fd0cb60847354e1903061"
+        url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.7/aerless-code-darwin-x64"
+        sha256 "22719ef24e0a38fd753dbd44171aef0df6e2666f1d22f3f345faecd796816326"
       end
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.5/aerless-linux-arm64"
-      sha256 "2f6b4d24c891d3e857e80c381f475b0e4b3f6700cb54d03001e05da04c4b740d"
+      url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.7/aerless-linux-arm64"
+      sha256 "15a332eab058c211d1da1322ebe1610d3c20593bfec42d79cf1e603c08a16b91"
       resource "aerless-code" do
-        url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.5/aerless-code-linux-arm64"
-        sha256 "99bd0c4875b3372155b2d2f0b6c91dcb7ccb63267b714d2a6032f31d94950948"
+        url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.7/aerless-code-linux-arm64"
+        sha256 "e6dd7e9682f861af1788271b22e31aaa7df741a41e0c5dab9cfb286b5f34f6d7"
       end
     end
     on_intel do
-      url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.5/aerless-linux-x64"
-      sha256 "7ee888655c8b79526615eef054053e3268e6f97134926e8c5f08f47418313dd1"
+      url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.7/aerless-linux-x64"
+      sha256 "cf24d5973cde14d88a9cf1c0bb8899171a750f4850b4b0f398955ec2adb6f9d7"
       resource "aerless-code" do
-        url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.5/aerless-code-linux-x64"
-        sha256 "be94583224a18cdbd4dd0690c327ea823e7b3748d0261dded0d101b82083a316"
+        url "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.7/aerless-code-linux-x64"
+        sha256 "2f5f230c6797764661b4d3d9c4a343addcbd4c858b419b5e9e3629ebc09f552c"
       end
     end
   end
